@@ -1,11 +1,11 @@
 # your code goes here ...
-# Use a base image with Python
+# Use the base image with Python
 FROM python:3.9-slim
 
-# Set the working directory
+# Set working directory
 WORKDIR /app
 
-# Copy the application files
+# Copy application files
 COPY ./app/src /app
 
 # Install dependencies

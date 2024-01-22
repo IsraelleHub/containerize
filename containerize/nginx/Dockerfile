@@ -1,8 +1,8 @@
 # your code goes here ...
-# Use the official Nginx base image
+# Use official Nginx base image
 FROM nginx:latest
 
-# Copy the Nginx configuration file
+# Copy Nginx configuration file
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
 
 # Copy SSL key pair
